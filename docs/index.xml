@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Val Baturin&#39;s Personal Pages</title>
+    <link>http://baturin.me/</link>
+    <description>Recent content in Home on Val Baturin&#39;s Personal Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2019 07:51:49 +0100</lastBuildDate>
+    
+	<atom:link href="http://baturin.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://baturin.me/about/</link>
+      <pubDate>Thu, 02 Jan 2020 15:02:47 +0300</pubDate>
+      
+      <guid>http://baturin.me/about/</guid>
+      <description>I run arch linux and use neovim, sway, tmux.
+I program in C, Haskell, Elixir.
+this page is under constructon </description>
+    </item>
+    
+    <item>
+      <title>Hello_world</title>
+      <link>http://baturin.me/posts/hello_world/</link>
+      <pubDate>Thu, 02 Jan 2020 01:14:42 +0300</pubDate>
+      
+      <guid>http://baturin.me/posts/hello_world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://baturin.me/contact/</link>
+      <pubDate>Mon, 18 Mar 2019 10:59:56 +0100</pubDate>
+      
+      <guid>http://baturin.me/contact/</guid>
+      <description> GitHub &amp;ndash; Hit that follow button val@baturin.me &amp;ndash; Personal email val.baturin@serokell.io &amp;ndash; Haskell consulting LinkedIn &amp;ndash; Just in case  </description>
+    </item>
+    
+  </channel>
+</rss>
