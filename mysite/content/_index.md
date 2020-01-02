@@ -20,7 +20,7 @@ The site automatically opens in dark mode.
 Here you can find my contact information, learn more about me and read
 fascinating and insignfull posts about technologies.
 
-I'm happy to see you here and hope you don't mind a bit of tracking on this site. To disable tracking from most of internet including [baturin.me](/) please install ad blocking software. My ad block of choise is adguard.
+I'm happy to see you here and hope you don't mind a bit of tracking on this site. To disable tracking from most of internet including [baturin.me](/) please install ad blocking software. My ad block of choice is adguard.
 
 Most of the texts here do contain typos and other types of mistakes. This is inevitable. If you really hate one or several particular mistakes please inform me and I'll do my best to fix them.
 
