@@ -1,6 +1,7 @@
 baseURL = "http://baturin.me/"
 languageCode = "en-us"
 title = "Val Baturin's Personal Pages"
+publishDir = "../docs"
 
 theme="crab"
 
