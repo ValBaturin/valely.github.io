@@ -5,8 +5,27 @@ draft: false
 showthedate: false
 ---
 
-I run arch linux and use neovim, sway, tmux.
+###  Occupation
 
-I program in C, Haskell, Elixir.
+Computer Science student at Higher School of Economics, Moscow
 
-## this page is under constructon
+### Interests in no particular order
+
+- Programming languages and compilers
+- Linguistics
+- Type theory
+- Operating systems
+- Smartphones
+- Software architecture design
+- Client-side
+- Consensus algorithms
+
+### My machine
+
+MBP 13-inch i5 Early 2015
+with replaced stock SSD to Samsung SSD 970 PRO
+
+Arch Linux distribution
+
+### Software of choice and their configuration
+[sway](https://github.com/ValBaturin/config/blob/master/.config/sway/config), [termite](https://github.com/ValBaturin/config/blob/master/.config/termite/config), tmux (default configuration), [neovim](https://github.com/ValBaturin/config/blob/master/.config/nvim/init.vim) 
