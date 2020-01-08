@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Arch is stable</title>
+      <link>http://baturin.me/posts/arch_is_stable/</link>
+      <pubDate>Tue, 07 Jan 2020 17:32:24 +0300</pubDate>
+      
+      <guid>http://baturin.me/posts/arch_is_stable/</guid>
+      <description>As you might notice after reading the about me page, I have the macbook and don&#39;t run macos. It&#39;s not a popular choice and folks around keep saying that macos is unix or unix-like system and has everything you need including tools for development pursope. It&#39;s kinda true and most of the tools are available. Despite of that I faced a number of issues with software not being able to compile for macos on macos.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>http://baturin.me/about/</link>
       <pubDate>Thu, 02 Jan 2020 15:02:47 +0300</pubDate>
@@ -21,15 +30,6 @@
 Interests in no particular order  Programming languages and compilers Linguistics Type theory Operating systems Smartphones Software architecture design Client-side Consensus algorithms  My machine MBP 13-inch i5 Early 2015 with replaced stock SSD to Samsung SSD 970 PRO
 Arch Linux distribution
 Software of choice and their configuration sway, termite, tmux (default configuration), neovim</description>
-    </item>
-    
-    <item>
-      <title>Hello_world</title>
-      <link>http://baturin.me/posts/hello_world/</link>
-      <pubDate>Thu, 02 Jan 2020 01:14:42 +0300</pubDate>
-      
-      <guid>http://baturin.me/posts/hello_world/</guid>
-      <description></description>
     </item>
     
     <item>

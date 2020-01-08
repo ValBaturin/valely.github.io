@@ -3,18 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://baturin.me/about/</loc>
-    <lastmod>2020-01-02T15:02:47+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://baturin.me/posts/hello_world/</loc>
-    <lastmod>2020-01-02T01:14:42+03:00</lastmod>
+    <loc>http://baturin.me/posts/arch_is_stable/</loc>
+    <lastmod>2020-01-07T17:32:24+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://baturin.me/posts/</loc>
-    <lastmod>2020-01-02T01:14:42+03:00</lastmod>
+    <lastmod>2020-01-07T17:32:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://baturin.me/about/</loc>
+    <lastmod>2020-01-02T15:02:47+03:00</lastmod>
   </url>
   
   <url>

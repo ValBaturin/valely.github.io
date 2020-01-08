@@ -6,18 +6,18 @@
     <description>Recent content in Posts on Val Baturin&#39;s Personal Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jan 2020 01:14:42 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 17:32:24 +0300</lastBuildDate>
     
 	<atom:link href="http://baturin.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello_world</title>
-      <link>http://baturin.me/posts/hello_world/</link>
-      <pubDate>Thu, 02 Jan 2020 01:14:42 +0300</pubDate>
+      <title>Arch is stable</title>
+      <link>http://baturin.me/posts/arch_is_stable/</link>
+      <pubDate>Tue, 07 Jan 2020 17:32:24 +0300</pubDate>
       
-      <guid>http://baturin.me/posts/hello_world/</guid>
-      <description></description>
+      <guid>http://baturin.me/posts/arch_is_stable/</guid>
+      <description>As you might notice after reading the about me page, I have the macbook and don&#39;t run macos. It&#39;s not a popular choice and folks around keep saying that macos is unix or unix-like system and has everything you need including tools for development pursope. It&#39;s kinda true and most of the tools are available. Despite of that I faced a number of issues with software not being able to compile for macos on macos.</description>
     </item>
     
   </channel>
