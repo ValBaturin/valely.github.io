@@ -14,7 +14,7 @@ I haven't tracked any of those issues and barely remember any them. You just hav
 Another reason of switching is that I've been following the development of [sway wm](https://swaywm.org/) for a whlie
 and therefore had a desire on get my hands on this window manager and give [wayland](https://wayland.freedesktop.org/) a try.
 
-The idea behind this post is to log issues that occured during my usage of the system. It's not a problem -- solution type of reading. The only thing you might get from this post is to see when I had bad days.
+The idea behind this post is to log issues that occured during my usage of the system. It's not a problem -- solution type of reading. The only thing you might get from this post is to see when I had bad days. The post has no date and is aimed to be updated on regular basis.
 
 ### 2020
 - 01/08 Fonts don't load in tty. Can't start a sway session. Reboot helped
