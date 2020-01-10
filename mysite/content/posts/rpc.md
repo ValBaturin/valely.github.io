@@ -1,4 +1,8 @@
-# What is RPC for real?
+---
+title: "What is RPC for real"
+date: 2020-01-10T21:59:29+03:00
+draft: false
+---
 
 ### Prelude
 Math teaches us before we're working with some kind abstraction we'd better have a formal
