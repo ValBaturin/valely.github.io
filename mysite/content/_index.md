@@ -2,15 +2,7 @@
 date = "2019-02-05T07:51:49+01:00"
 title = "Home"
 draft = false
-
 +++
-
-{{% summary %}}
-Summary:
-**Crab** is a clean Hugo theme for websites. Its features include
-responsiveness, nested menu support, two-column layout, tag and blog
-article support.
-{{% /summary %}}
 
 Welcome to baturin.me
 
