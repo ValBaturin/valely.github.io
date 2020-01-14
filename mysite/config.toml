@@ -4,6 +4,7 @@ title = "Val Baturin's Personal Pages"
 publishDir = "../docs"
 
 [params]
+copyright = "baturin.me"
 
 [[menu.main]]
 weight = 1
