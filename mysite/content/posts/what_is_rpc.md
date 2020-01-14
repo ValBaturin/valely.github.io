@@ -130,4 +130,4 @@ of the API by combining those components. There's a bunch of other architectural
 that you got the main idea.
 
 ### Now you know
-Congratulations! By this point, you know what RPC is and can explain what is the difference between REST and RPC.
+Congratulations! By this point, you know what RPC is and can explain what the difference between REST and RPC is.
