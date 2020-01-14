@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>What is RPC for real</title>
+      <link>http://baturin.me/posts/what_is_rpc/</link>
+      <pubDate>Tue, 14 Jan 2020 18:43:24 +0300</pubDate>
+      
+      <guid>http://baturin.me/posts/what_is_rpc/</guid>
+      <description>Before you get started I assume that a fellow reader has some understanding of APIs and experience with REST, in particular, might help as well. The goal of this post is to provide a clear understanding of RPC. You might&#39;ve already worked with gRPC or Apache Thrift but still can&#39;t elaborate on the differences between REST API and the mentioned tech. This post is exactly for you.
+How to deal with new knowledge Math teaches us before we&#39;re working with some kind abstraction we&#39;d better have a formal definition of that thing.</description>
+    </item>
+    
+    <item>
       <title>Arch is stable</title>
       <link>http://baturin.me/posts/arch_is_stable/</link>
       <pubDate>Tue, 07 Jan 2020 17:32:24 +0300</pubDate>

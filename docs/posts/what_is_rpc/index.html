@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146374020-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146374020-1');
+</script>
+
+    <title>What is RPC for real - Val Baturin&#39;s Personal Pages</title>
+    <link rel="stylesheet" href="http://baturin.me/css/basic.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0">
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.60.0" />
+
+    
+
+  </head>
+  <body>
+
+    <div id="container">
+
+      <div id="header">
+
+        <div id="site-logo" alt="Avatar" style="width:100px">
+          
+          
+        </div>
+
+	<div id="site-title"><a href="http://baturin.me/">Val Baturin&#39;s Personal Pages</a></div>
+	<div id="site-slogan"></div>
+
+      </div>
+
+            <nav>
+        <ul class="first">
+          
+          
+          <li><a href="/">Home </a>
+            
+            </li>
+          
+          <li><a href="/posts/">Posts </a>
+            
+            </li>
+          
+          <li><a href="/about/">About </a>
+            
+            </li>
+          
+          <li><a href="/contact/">Contact </a>
+            
+            </li>
+          
+        </ul>
+      </nav>
+
+
+      <div id="content">
+
+        <div id="article">
+	  <h1>What is RPC for real</h1>
+
+
+
+<p class="timestamp">January 14, 2020</p>
+
+
+<h3 id="before-you-get-started">Before you get started</h3>
+<p>I assume that a fellow reader has some understanding of APIs and experience with REST, in particular, might help as well.
+The goal of this post is to provide a clear understanding of RPC. You might've already worked
+with gRPC or Apache Thrift but still can't elaborate on the differences between REST API and the mentioned tech.
+This post is exactly for you.</p>
+<h3 id="how-to-deal-with-new-knowledge">How to deal with new knowledge</h3>
+<p>Math teaches us before we're working with some kind abstraction we'd better have a formal definition of that thing. Having a format definition is essential for a deep understanding of any domain. Knowing what an abstraction exactly is, eliminates the possibility of misunderstanding. Human languages are always a consensus-based tool. Let's have a consensus then!</p>
+<h3 id="letter-by-letter">Letter by letter</h3>
+<p>Let's all of us agree on what do we mean when we say an RPC acronym. Acronyms are easy, huh? Basically, knowing what each letter of a word stands for gives you a grasp on what the word means for free. RPC stands for &ldquo;Remote Procedure Call&rdquo;. So it's a call of a remote procedure. It might be calls of remote procedures as well. Say honestly can you explain what RPC is after knowing what are call, remote, and procedure. I bet you can't. What if you knew what remote procedure is? It must be slightly better I guess, however, what's RPC?</p>
+<h3 id="easy-way">Easy way</h3>
+<p>For computer science terms it's often quite easy to just search for a term and actually find something.
+What I found on wikipedia from my point of view is bad. Let me remind you that words’ meaning is also context-based. For example, the word call as a noun in American English has 4 different possible contexts and 5 different meanings according to the cambridge dictionary. So it's necessary to understand the exact meaning for terms you use depending on a context. You might argue that in computer science all terms are independent on a context. The first example which pops up in my head is a pointer. So what is a pointer in C++ programming language?</p>
+<blockquote>
+<p>In C++ pointers are variables that store addresses and can be null.</p>
+</blockquote>
+<p>Then what is smart pointer?</p>
+<blockquote>
+<p>Smart pointer is an abstract data type that simulates a pointer while providing added features.</p>
+</blockquote>
+<p>Can abstract data type simulate a variable? No, of course, it can not. So it must mean there's another definition of C++ pointer which fits here. And here it is!</p>
+<blockquote>
+<p>In C++ pointer is a class of types (eg int*, void*) which represents a position of an object in memory while also being able to represent no position (nullptr).</p>
+</blockquote>
+<h3 id="bad-definition">Bad definition</h3>
+<p>I'm just quoting wikipedia's one.</p>
+<blockquote>
+<p>In distributed computing, a remote procedure call (RPC) is
+<strong>when</strong> a computer program causes a procedure (subroutine) to execute
+in a different address space (commonly on another computer on a shared network),
+which is coded as if it was a normal (local) procedure call,
+without the programmer explicitly coding the details for the remote interaction.</p>
+</blockquote>
+<p>So why is it bad? The main problem with the definition above is that you can't say what RPC is after reading the definition of it.
+I mean you can repeat what you've just heard but it makes no sense. Why do I say that and how's it different from good definitions.</p>
+<p>The 2 definitions of the C++ pointers are good and let me show you the difference.</p>
+<blockquote>
+<p>In C++ pointers are variables that store addresses and can be null.</p>
+</blockquote>
+<h5 id="what-is-a-pointer">What is a pointer?</h5>
+<p>First of all, a pointer is a variable.</p>
+<h5 id="is-it-just-any-variable">Is it just any variable?</h5>
+<p>No, it must store addresses or be null.
+So we have an object and constraints on an object</p>
+<p>The same goes for the second definition.</p>
+<blockquote>
+<p>In C++ pointer is a class of types (int*, void*) which represents a position of an object in memory
+while also being able to represent no position (nullptr).</p>
+</blockquote>
+<h5 id="what-is-a-pointer1">What is a pointer?</h5>
+<p>First of all, a pointer is a class of types</p>
+<h5 id="which-class-of-types">Which class of types?</h5>
+<p>You can think of classes as some restrictions, so you might wonder which class is that and it's easy to answer
+that pointer must represent a position of an object in memory.
+This is clear.</p>
+<p>I'm quoting again RPC definition.</p>
+<blockquote>
+<p>In distributed computing, a remote procedure call (RPC) is
+<strong>when</strong> a computer program causes a procedure (subroutine) to execute
+in a different address space (commonly on another computer on a shared network),
+which is coded as if it was a normal (local) procedure call,
+without the programmer explicitly coding the details for the remote interaction.</p>
+</blockquote>
+<h5 id="whats-rpc">What's RPC?</h5>
+<p>I don't know. If you don't have prior knowledge you can't answer the question just using that definition.
+Definitions which start with the word <strong>when</strong> are destructive and considered to be harmful to the deep understanding of a subject.</p>
+<h3 id="starting-over">Starting over</h3>
+<p>Here is a historical remark for you just in case. Originally the word RPC stood for an extension of procedure call.
+The difference is that an actual execution must happen on a remote machine or at least in a different address space.
+So the original definition of RPC would be</p>
+<blockquote>
+<p>A remote procedure call is a procedure call that's executed in a different address space.</p>
+</blockquote>
+<p>Thus we can answer the question &ldquo;what's RPC&rdquo;.</p>
+<h5 id="whats-rpc1">What's rpc?</h5>
+<p>Firstly it's a procedure call.</p>
+<h5 id="is-in-any-procedure-call">Is in any procedure call?</h5>
+<p>No, it must be executed in a different address space.</p>
+<p>Awesome! Now we all know what RPC is. Well, not really.
+In reality, nobody still uses RPC as a word that was used almost 50 years ago.
+So let me explain what RPC means nowadays.</p>
+<blockquote>
+<p>RPC is a software architectural style that defines a set of constraints to be used for creating APIs.</p>
+</blockquote>
+<h3 id="getting-real">Getting real</h3>
+<p>It's important to notice that people often omit the word <code>implementation</code> when they mean it.
+For example, even though REST is an approach, style and just a list of constraints for implementing web application APIs
+we can say that service has REST or REST API and what we actually mean is that service has an implementation of REST API.
+It has an implementation of API according to the specific style and which abides the rules.</p>
+<p>Even though being a human means we would probably omit the implementation word
+partially because the use of it is redundant and can be
+deducted from a context now we have a clear understanding of what RPC implementation means.</p>
+<h3 id="getting-even-more-real">Getting even more real</h3>
+<p>You might think that the definition is too vague and you still don't really get what's the
+difference between REST and RPC. RPC and REST are essentially the same at least because they
+solve the same problem in software engineering. If we dive into details we'd see the difference.
+That's what're we going to do right now.
+As you can see the origin of RPC is an attempt to isolate processes and create virtual memory
+abstraction to achieve different kinds of goals. Once computers evolved enough we don't see a problem of
+processes isolation that vivid anymore and basically take for granted that procedures can be executed in different
+address spaces.</p>
+<p>The legacy that RPC brings to us is that RPC means to be as simple as possible
+and creating abstraction on top of the application is not required. Therefore the guideline of RPC
+is to be tightly coupled with an internal app.
+On the other hand, RESTful web services have loosely coupled API implementations.</p>
+<h3 id="a-bit-of-history-of-rest">A bit of history of REST.</h3>
+<blockquote>
+<p>The term representational state transfer was introduced and defined in 2000 by Roy Fielding in his doctoral dissertation.
+Fielding's dissertation explained the REST principles that were known as the &ldquo;HTTP object model&rdquo; beginning in 1994,
+and were used in designing the HTTP 1.1 and Uniform Resource Identifiers (URI) standards.
+The term is intended to evoke an image of how a well-designed Web application behaves:
+it is a network of Web resources (a virtual state-machine) where the user progresses
+through the application by selecting resource identifiers such as <code>http://www.example.com/articles/21</code>
+and resource operations such as GET or POST (application state transitions),
+resulting in the next resource's representation (the next application state) being transferred to the end user for their use.</p>
+</blockquote>
+<p>The concept is aiming to indeed create a loosely coupled architecture and what else is that such a design style makes
+sense when you want to create a lot of reusable components so that it's possible and quite easy to create another application on top
+of the API by combining those components. There's a bunch of other architectural constraints which REST introduces, however, I hope
+that you got the main idea.</p>
+<h3 id="now-you-know">Now you know</h3>
+<p>Congratulations! By this point, you know what RPC is and can explain what is the difference between REST and RPC.</p>
+
+
+        </div>
+
+      </div>
+
+      <div id="footer">
+        Copyright 2020 
+      </div>
+
+    </div>
+
+  </body>
+</html>
+
