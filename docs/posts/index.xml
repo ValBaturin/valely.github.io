@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Val Baturin&#39;s Personal Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jan 2020 18:43:24 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 22:11:30 +0300</lastBuildDate>
     
 	<atom:link href="http://baturin.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quotes</title>
+      <link>http://baturin.me/posts/quotes/</link>
+      <pubDate>Fri, 24 Jan 2020 22:11:30 +0300</pubDate>
+      
+      <guid>http://baturin.me/posts/quotes/</guid>
+      <description> Upcoming features in Haskell   Researchers who study some technique X ask themselves how best to use X to do Y, and publish a series of papers on the subject, but practitioners don&#39;t care about the answer to that question because they don&#39;t care about that question at all.
+ </description>
+    </item>
     
     <item>
       <title>What is RPC for real</title>
