@@ -9,16 +9,12 @@ showthedate: false
 
 Computer Science student at Higher School of Economics, Moscow
 
-### Interests in no particular order
+### Interests
 
 - Programming languages and compilers
-- Linguistics
 - Type theory
 - Operating systems
-- Smartphones
 - Software architecture design
-- Client-side
-- Consensus algorithms
 
 ### My machine
 
