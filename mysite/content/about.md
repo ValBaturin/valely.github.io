@@ -12,7 +12,6 @@ Computer Science student at Higher School of Economics, Moscow
 ### Interests
 
 - Programming languages and compilers
-- Type theory
 - Operating systems
 - Software architecture design
 
