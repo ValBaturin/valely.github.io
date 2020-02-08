@@ -9,3 +9,6 @@ showthedate: false
 
 2. [Drew on rust](https://drewdevault.com/2019/03/25/Rust-is-not-a-good-C-replacement.html)
 > Yes, Rust is more safe. I don’t really care. In light of all of these problems, I’ll take my segfaults and buffer overflows.
+
+3. [Brian Will on UML](https://youtu.be/IRTfhkiAqPw?t=826)
+> At a minimum the lesson here is that UML is just fucking garbage. Don't ever use it, it's crazy.
