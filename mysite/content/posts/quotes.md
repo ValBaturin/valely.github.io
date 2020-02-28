@@ -12,3 +12,6 @@ showthedate: false
 
 3. [Brian Will on UML](https://youtu.be/IRTfhkiAqPw?t=826)
 > At a minimum the lesson here is that UML is just fucking garbage. Don't ever use it, it's crazy.
+
+4. [Owen in Software developers should avoid traumatic changes reply](https://lists.sr.ht/~sircmpwn/public-inbox/%3CCAGjjcJh8G3syhsB_hktfwiGpSSgYGXSVvfAPqStrq5uTqcH0FA%40mail.gmail.com%3E)
+> It is just the way software is in this modern day of beginner tutorials.
