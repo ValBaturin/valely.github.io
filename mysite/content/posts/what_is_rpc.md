@@ -11,14 +11,14 @@ with gRPC or Apache Thrift but still can't elaborate on the differences between 
 This post is exactly for you.
 
 ### How to deal with new knowledge
-Math teaches us before we're working with some kind abstraction we'd better have a formal definition of that thing. Having a format definition is essential for a deep understanding of any domain. Knowing what an abstraction exactly is, eliminates the possibility of misunderstanding. Human languages are always a consensus-based tool. Let's have a consensus then!
+Math teaches us before we're working with some kind abstraction we'd better have a formal definition of that thing. Having a formal definition is essential for a deep understanding of any domain. Knowing what an abstraction exactly is eliminates the possibility of misunderstanding. Human languages are always a consensus-based tool. Let's have a consensus then!
 
 ### Letter by letter
-Let's all of us agree on what do we mean when we say an RPC acronym. Acronyms are easy, huh? Basically, knowing what each letter of a word stands for gives you a grasp on what the word means for free. RPC stands for "Remote Procedure Call". So it's a call of a remote procedure. It might be calls of remote procedures as well. Say honestly can you explain what RPC is after knowing what are call, remote, and procedure. I bet you can't. What if you knew what remote procedure is? It must be slightly better I guess, however, what's RPC?
+Let's all of us agree on what we mean when we say an RPC acronym. Acronyms are easy, huh? Basically, knowing what each letter of a word stands for gives you a grasp on what the word means for free. RPC stands for "Remote Procedure Call". So it's a call of a remote procedure. It might be calls of remote procedures as well. Say honestly can you explain what RPC is after knowing what are call, remote, and procedure. I bet you can't. What if you knew what remote procedure is? It must be slightly better I guess, however, what's RPC?
 
 ### Easy way
 For computer science terms it's often quite easy to just search for a term and actually find something.
-What I found on wikipedia from my point of view is bad. Let me remind you that words’ meaning is also context-based. For example, the word call as a noun in American English has 4 different possible contexts and 5 different meanings according to the cambridge dictionary. So it's necessary to understand the exact meaning for terms you use depending on a context. You might argue that in computer science all terms are independent on a context. The first example which pops up in my head is a pointer. So what is a pointer in C++ programming language?
+What I found on Wikipedia from my point of view is bad. Let me remind you that words’ meaning is also context-based. For example, the word call as a noun in American English has 4 different possible contexts and 5 different meanings according to the Cambridge dictionary. So it's necessary to understand the exact meaning for terms you use depending on a context. You might argue that in computer science all terms are independent on a context. The first example which pops up in my head is a pointer. So what is a pointer in C++ programming language?
 > In C++ pointers are variables that store addresses and can be null.
 
 Then what is smart pointer?
@@ -30,7 +30,7 @@ Can abstract data type simulate a variable? No, of course, it can not. So it mus
 > In C++ pointer is a class of types (eg int*, void*) which represents a position of an object in memory while also being able to represent no position (nullptr).
 
 ### Bad definition
-I'm just quoting wikipedia's one.
+I'm just quoting Wikipedia's one.
 > In distributed computing, a remote procedure call (RPC) is
 > **when** a computer program causes a procedure (subroutine) to execute
 > in a different address space (commonly on another computer on a shared network),
